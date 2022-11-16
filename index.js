@@ -206,4 +206,4 @@ app.post("/addmentor/:id",async(req,res)=>{
 
 
 console.log("started")
-app.listen(3005);
+app.listen(process.env.PORT || 3005);
